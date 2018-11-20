@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">FlikFeed</string>
+    <string name="camera_permission_confirmation">This app demonstrates the usage of CameraView. In order to do that, it needs permission to access camera.</string>
+    <string name="camera_permission_not_granted">Camera app cannot do anything without camera permission.</string>
+    <string name="picture_taken">Picture taken</string>
+    <string name="aspect_ratio">Aspect ratio</string>
+    <string name="switch_flash">Switch flash</string>
+    <string name="switch_camera">Switch camera</string>
+    <string name="flash_auto">Flash auto</string>
+    <string name="flash_off">Flash off</string>
+    <string name="flash_on">Flash on</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_select">No Select</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="messages">Messages</string>
+    <string name="monetization">Monetization</string>
+    <string name="post">Post</string>
+    <string name="discover">Discover</string>
+    <string name="home_screen">Home Screen</string>
+    <string name="notifications">Notifications</string>
+    <string name="profile">Profile</string>
+    <string name="upload">Upload</string>
+    <string name="flick_feed">Flick Feed</string>
+    <string name="write_a_comment">Write a comment...</string>
+    <string name="comments">Comments</string>
+    <string name="hello_there_everyone_hows_it_going_ya_ll_party_time_3_3"><![CDATA[Hello there everyone - hows it going ya\'ll? Party Time <3 <3 ...]]></string>
+    <string name="email">Email Id</string>
+    <string name="userid">User Id</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="login_register">New user, tap here to register !</string>
+    <string name="register">Register</string>
+
+    <string name="edit_profile">Edit Profile</string>
+    <string name="profile_photo">Profile Photo</string>
+    <string name="edit_profile_fragment">Edit Profile</string>
+    <string name="profile_fragment">Profile</string>
+    <string name="profile_activity">Profile Activity</string>
+    <string name="calling_activity">calling_activity</string>
+    <string name="dbname_users">users</string>
+    <string name="dbname_user_account_settings">user_account_settings</string>
+    <string name="dbname_photos">photos</string>
+    <string name="dbname_user_photos">user_photos</string>
+    <string name="dbname_following">following</string>
+    <string name="dbname_followers">followers</string>
+    <string name="field_username">username</string>
+    <string name="field_email">email</string>
+    <string name="field_display_name">display_name</string>
+    <string name="field_website">website</string>
+    <string name="field_description">description</string>
+    <string name="field_phone_number">phone_number</string>
+    <string name="field_user_id">user_id</string>
+    <string name="field_photo_id">photo_id</string>
+    <string name="field_image_path">image_path</string>
+
+    <string name="default_notification_channel_id">azaab_channel</string>
+
+    <string name="user_successfully_added">User successfully added!</string>
+    <string name="user_unable_to_add">Unable to add user!</string>
+    <string name="adding_user_to_db">Adding user to database.</string>
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please wait...</string>
+
+    <string name="font_family_roboto_light">sans-serif-thin</string>
+    <string name="type_a_message">Type a message...</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="logout">Logout</string>
+    <string name="are_you_sure">Are you sure ?</string>
+
+    <string name="facebook_app_id">1409928445793968</string>
+    <string name="fb_login_protocol_scheme">fb1409928445793968</string>
+
+    <!-- Strings related to welcome screen -->
+    <string name="tagline">Selfie se paisay kamayen!</string>
+    <string name="terms">By using Flikfeed, you agree to Flikfeed\'s Terms of Use and Privacy Policy</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_signup">Sign up</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="signuphref">By signing up, you agree to our <a href="www.google.com">Terms</a> &amp; <a href="wwww.journalpost.com">Privacy Policy</a></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="cancelled">cancelled</string>
+    <string name="permission_not_granted">permission_not_granted</string>
+    <string name="ok">ok</string>
+
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="signupbottomlogin">Already a member? <a>Login</a></string>
+    <string name="title_activity_upload_stuff">UploadStuffActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+</resources>

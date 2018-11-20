@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "886867822932",
+    "firebase_url": "https://flikfeed-ad19c.firebaseio.com",
+    "project_id": "flikfeed-ad19c",
+    "storage_bucket": "flikfeed-ad19c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886867822932:android:a1ad32c18c0b9b57",
+        "android_client_info": {
+          "package_name": "com.thecoloredcolors.rmsha.flikfeed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886867822932-m7nqpkur0pva04nucs2p976oo8m1bk77.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thecoloredcolors.rmsha.flikfeed",
+            "certificate_hash": "be9b09c513db3b74d915820c118bfcdd72e3bd37"
+          }
+        },
+        {
+          "client_id": "886867822932-69i30t6ctkmlqvpt37ab9r8jpqse875c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6zXtZtuJ4BeOAcvsBvVF6rCTpZptqzJc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "886867822932-69i30t6ctkmlqvpt37ab9r8jpqse875c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

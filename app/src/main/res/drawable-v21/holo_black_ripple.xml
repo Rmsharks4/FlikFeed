@@ -1,0 +1,7 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:color="@color/title"> <!-- ripple color -->
+
+    <item android:drawable="@color/bottom_bar" /> <!-- normal color -->
+
+</ripple>

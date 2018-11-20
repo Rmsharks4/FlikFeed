@@ -1,0 +1,91 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+
+    buildToolsVersion "26.0.2"
+    defaultConfig {
+        applicationId "com.thecoloredcolors.rmsha.flikfeed"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //noinspection GradleCompatible
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile "com.android.support:recyclerview-v7:26.1.0"
+    compile 'com.android.support:support-v4:26.1.0'
+    //noinspection GradleCompatible
+    compile 'com.google.firebase:firebase-core:11.4.2'
+    compile 'com.google.firebase:firebase-firestore:11.4.2'
+    compile 'com.google.firebase:firebase-storage:11.4.2'
+    compile 'com.google.firebase:firebase-messaging:11.4.2'
+    compile 'com.google.firebase:firebase-invites:11.4.2'
+    compile 'com.github.castorflex.verticalviewpager:library:19.0.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.github.bumptech.glide:glide:4.2.0'
+    compile 'jp.wasabeef:glide-transformations:3.0.1'
+    compile 'com.otaliastudios:cameraview:1.4.0'
+    compile 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
+    compile 'com.jsibbold:zoomage:1.1.0'
+    compile 'com.daimajia.easing:library:2.0@aar'
+    compile 'com.daimajia.androidanimations:library:2.3@aar'
+    compile 'com.devbrackets.android:exomedia:4.0.3'
+    compile 'com.android.support:design:26.1.0'
+    compile 'com.nightonke:boommenu:2.1.1'
+    compile 'com.davemorrissey.labs:subsampling-scale-image-view:3.7.0'
+    compile 'gun0912.ted:tedpermission:1.0.3'
+    compile project(':tedbottompicker')
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.jakewharton:butterknife:8.8.1'
+    compile 'me.itangqi.waveloadingview:library:0.3.5'
+    compile 'de.hdodenhof:circleimageview:2.2.0'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    compile 'com.android.volley:volley:1.0.0'
+    //compile 'com.facebook.android:facebook-share:4.28.0'
+
+    // FirebaseUI for Cloud Firestore
+    compile 'com.firebaseui:firebase-ui-firestore:3.1.0'
+    compile 'com.github.satyan:sugar:1.5'
+
+    implementation 'me.aflak.libraries:filter-annotation:1.2'
+    annotationProcessor 'me.aflak.libraries:filter-processor:1.2'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    compile 'com.android.support:cardview-v7:26.1.0'
+
+    compile 'com.firebaseui:firebase-ui:0.6.2'
+
+    //firebase related dependencies
+    compile 'com.firebaseui:firebase-ui-database:0.6.2'
+    //noinspection GradleCompatible
+    compile 'com.google.firebase:firebase-database:11.4.2'
+    compile 'com.firebase:firebase-jobdispatcher:0.6.0'
+    compile 'com.google.firebase:firebase-messaging:11.4.2'
+    compile 'com.google.firebase:firebase-auth:11.4.2'
+    compile 'com.google.android.gms:play-services-auth:11.4.2'
+
+    //okhttp
+    compile 'com.squareup.okhttp3:okhttp:3.8.0'
+
+    //event bus
+    compile 'org.greenrobot:eventbus:3.0.0'
+
+    testCompile 'junit:junit:4.12'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.2.0'
+}
+apply plugin: 'com.google.gms.google-services'

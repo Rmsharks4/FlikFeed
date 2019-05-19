@@ -24,15 +24,20 @@ Instagram clone application - made using Android Studio and uses Google's Firest
 </p>
 
 <h4>iv) Upload Screen - (Caption, Tags, Camera, Gallery)</h4>
+<p float="center">
 <img src="/Screenshots/Loading.jpg" alt="Upload" width="150" />
 <img src="/Screenshots/Browse.jpeg" alt="Browse" width="150" />  
 <img src="/Screenshots/Caption.jpeg" alt="Caption" width="150" />  
-
+</p>
 
 <h4>v) Notifications (Like, Comment, Comment-Like, Messages)</h4>
+<p float="center">
 <img src="/Screenshots/Messages.jpg" alt="Messages" width="150" />
 <img src="/Screenshots/Replies.jpeg" alt="Conversation" width="150" />  
+</p>
 
 <h4>vi) Profile (User Posts, Following, Followers, Settings)</h4>
+<p float="center">
 <img src="/Screenshots/Profile.jpg" alt="Profile" width="150" />
 <img src="/Screenshots/Settings.jpeg" alt="Settings" width="150" />  
+</p>
